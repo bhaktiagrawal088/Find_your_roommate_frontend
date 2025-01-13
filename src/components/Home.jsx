@@ -2,10 +2,12 @@ import React from 'react';
 import WithRoom from './WithRoom';
 import WithoutRoom from './WithoutRoom';
 import Footer from './Footer';
+import Header from './Header';
 
 const Home = () => {
   return (
     <div>
+        <Header/>
         <div className="bg-gray-100 flex flex-col justify-center items-center relative">
       {/* Title */}
       <div className="text-blue-500 font-bold font-mono text-3xl text-center mt-12">
